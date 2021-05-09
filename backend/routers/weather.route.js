@@ -7,13 +7,13 @@ router.get("/weather", (req, res) => {
     return res.send({
       error: "Please provide an address!",
     });
-  mainforecast(req.query.address, (error, { location, forecast, air } = {}) => {
+  mainforecast(req.query.address, (error, { location, forecast, airq } = {}) => {
     if (error) return res.send({ error });
     res.send({
       location,
       address: req.query.address,
       forecast,
-      air_quality: air,
+      air_quality: airq,
     });
   });
 });

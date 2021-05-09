@@ -12,7 +12,7 @@ const mainforecast=(location,callback)=>{
         callback(undefined,{
             location: body.location.region,
             forecast: body.current.condition.text+". The current temperature is "+body.current.temp_f+" F, feels like "+body.current.feelslike_f+" F. Likely rainfall is "+body.current.precip_in+" inches and"+" it is "+body.current.humidity+"% humid.",
-            air: body.current.air_quality
+            airq: body.current.air_quality
         })
         }
     })
