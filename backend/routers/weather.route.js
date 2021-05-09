@@ -2,8 +2,7 @@ const express = require("express");
 const router = express.Router();
 const mainforecast = require("../utils/mainforecast");
 
-
-router.get("", (req, res) => {
+router.get("/weather", (req, res) => {
   if (!req.query.address)
     return res.send({
       error: "Please provide an address!",
