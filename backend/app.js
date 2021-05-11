@@ -3,9 +3,10 @@ const cors = require("cors");
 const weatherRouter = require("./routers/weather.route")
 const app = express();
 const port = process.env.PORT || 8000
+require('dotenv').config();
 
 app.use(cors({
-  origin: "http://192.168.1.12:3000"
+  origin: "http://localhost:3000/"
   }));
   
 // app.get("/",(req,res)=>{

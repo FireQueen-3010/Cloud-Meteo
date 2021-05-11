@@ -3,10 +3,11 @@ import Footer from "../components/footer";
 import Search from "../components/search";
 
 const Home=() =>{
+ 
     return (
         <div className="home">
          <Header text="Find your weather on the go"/>
-         <Search href="#" text="Let's find out the Weather!" placeholder="Enter your location" btnText="Woosh!"/>
+         <Search text="Let's find out the Weather!" placeholder="Enter your location" btnText="Woosh!"/>
          <Footer text="FireQueen-3010" href="https://github.com/FireQueen-3010"/>
         </div>
     )
