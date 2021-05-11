@@ -1,0 +1,18 @@
+@import './utilities/variables.scss';
+
+//base
+@import './base/resets.scss';
+
+//utilities
+@import './utilities/animations.scss';
+@import './utilities/classes.scss';
+@import './utilities/mixins.scss';
+
+
+//components
+@import './components/header.scss';
+@import './components/footer.scss';
+@import './components/search.scss';
+
+//pages
+@import './pages/home.scss';

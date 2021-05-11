@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    // max-width: 10vw;
+    background-color: $header-color;
+}
+
+@media screen and (max-width:720px)
+{
+    .header{
+        flex-direction: column;
+        &-logo{
+            transform: scale(0.6);
+        }
+        &-text{
+            margin-bottom: 2rem;
+        }
+    }
+}

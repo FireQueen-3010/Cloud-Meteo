@@ -1,0 +1,8 @@
+.footer{
+    text-align: center;
+    font-family: $secondary-font !important;
+    &-text{
+        color: $header-color;
+        text-decoration: none;
+    }
+}
