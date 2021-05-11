@@ -5,9 +5,7 @@ const app = express();
 const port = process.env.PORT || 8000
 require('dotenv').config();
 
-app.use(cors({
-  origin: "http://localhost:3000/"
-  }));
+app.use(cors());
   
 // app.get("/",(req,res)=>{
 //   res.send("Proceed to /weather to find your weather")
