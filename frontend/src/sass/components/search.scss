@@ -50,3 +50,19 @@
         }
     }
 }
+
+.result{
+  &--div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      &-head{
+          color: $primary-black;
+          margin: 4rem 0 2rem 0;
+      }
+      &-head2{
+          color: $primary-white;
+      }
+  }
+}
