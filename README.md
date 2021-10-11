@@ -7,6 +7,9 @@ https://cloud-meteo.netlify.app/
 This a weather application that fetches weather according to location fired by the user. It uses api calls to fetch weather (api service used: https://www.weatherapi.com/). 
 It uses Express on the server-side and React for the frontend.
 
+![image](https://user-images.githubusercontent.com/59244300/136818708-f905df6d-fb72-4552-afb3-446a3a2787ae.png)
+
+
 backend url : https://cloud-meteo.herokuapp.com
 backend local port: 8000
 
